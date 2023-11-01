@@ -1,0 +1,40 @@
+
+
+
+.panel__display {
+    position: relative;
+    width: 240px;
+    height: 60px;
+    
+    box-sizing: border-box;
+    border-radius: 4px;
+    
+    box-shadow: 0px 4px 6px 0px #0000000F;
+}
+
+.display{
+    &__screen{
+        position: absolute;
+        right: 4px;
+        left: 4px;
+        top: 4px;
+        bottom: 4px;
+
+        border-radius: 6px;
+        background: #F3F4F6;
+
+        p {
+            margin: 0;
+            border-radius: 6px;
+
+            margin-right: 8px;
+
+            font-size: 36px;
+            font-weight: 800;
+            text-align: right;
+
+
+        }
+    }
+    
+}

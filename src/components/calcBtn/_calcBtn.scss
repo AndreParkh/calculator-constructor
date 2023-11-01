@@ -1,0 +1,19 @@
+.calc__btn {
+    margin: 0;
+    box-sizing: border-box;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
+    margin: 4px;
+    border-radius: 6px;
+    border: 1px solid #E2E3E5;
+    font-weight: 500;
+
+    &__toEquel {
+        color: #fff;
+        background-color: #5D5FEF;
+
+    }
+}
